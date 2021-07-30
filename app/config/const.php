@@ -13,8 +13,8 @@ const TIME_ZONE = 'Asia/Yerevan';
 const DB_INFO = [
     'driver' => 'mysql',
     'host' => 'localhost',
-    'user' => 'nordil',
-    'password' => '190695',
-    'db_name' => 'messanger'
+    'user' => 'cj58886_messange',
+    'password' => 'cj58886_messange',
+    'db_name' => 'Noro190695'
 ];
 
