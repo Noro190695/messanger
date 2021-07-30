@@ -14,7 +14,7 @@ const DB_INFO = [
     'driver' => 'mysql',
     'host' => 'localhost',
     'user' => 'cj58886_messange',
-    'password' => 'cj58886_messange',
-    'db_name' => 'Noro190695'
+    'password' => 'Noro190695',
+    'db_name' => 'cj58886_messange'
 ];
 
