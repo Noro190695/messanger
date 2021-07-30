@@ -3,6 +3,7 @@ define('ROOT', dirname(dirname(__DIR__)));
 const NAME = 'Bewedoc';
 const DEBUG = true;
 const TIME_ZONE = 'Asia/Yerevan';
+const PATH = '/';
 
 
 /**

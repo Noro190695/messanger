@@ -144,6 +144,10 @@ class Router {
 
     public static function run($uri){
         $uri = trim($uri, '/');
+        $domain = PATH;
+        $uri = preg_replace("#$domain#", '', $uri);
+        $uri = trim($uri, '/');
+
 
         self::dispatch($uri);
 
