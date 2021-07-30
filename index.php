@@ -6,7 +6,6 @@ header('Content-Type: application/json');
 date_default_timezone_set(TIME_ZONE);
 require_once ROOT . '/vendor/autoload.php';
 
-dump($_SERVER['REQUEST_URI']);
 use core\Router;
 use \core\base\bewedoc\Bewedoc;
 Bewedoc::services();
