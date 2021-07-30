@@ -10,9 +10,7 @@ use app\models\Login;
 class LoginController {
 
     public function indexAction() {
-        dump(111);
         if (!empty($_POST)){
-
              Login::login($_POST);
         }
     }

@@ -24,7 +24,7 @@ class Login extends BaseModel {
                         'createdAt' => $user['created_at']
 
                     ];
-                    header('Location: https://bewedoc.ru');
+                    header('Location: /');
 
                 }else{
                     echo json_encode([
