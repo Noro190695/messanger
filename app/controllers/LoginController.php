@@ -11,7 +11,7 @@ class LoginController {
 
     public function indexAction() {
         if (!empty($_POST)){
-
+            dump(111);
              Login::login($_POST);
         }
     }
