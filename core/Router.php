@@ -64,6 +64,7 @@ class Router {
      */
     private static function matchRoute($url) {
         $query_arr = explode('/', $url);
+
         if (count($query_arr) < 3){
             foreach (self::$routes as $pattern => $route) {
                 if (preg_match("!$pattern!i", $url, $matches)){
