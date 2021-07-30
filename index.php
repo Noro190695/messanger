@@ -8,7 +8,7 @@ header('Access-Control-Allow-Origin: *');
 header('Content-Type: application/json');
 date_default_timezone_set(TIME_ZONE);
 require_once ROOT . '/vendor/autoload.php';
-$res = preg_replace('/api/', '/', $_SERVER['REQUEST_URI']);
+$res = preg_replace('/api/', '', $_SERVER['REQUEST_URI']);
 echo  $res;
 print_r($res);
 use core\Router;
