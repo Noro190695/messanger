@@ -16,6 +16,5 @@ class LoginController {
     }
     public function logoutAction() {
        unset( $_SESSION['user']);
-       header("Location: /");
     }
 }

@@ -24,7 +24,10 @@ class Login extends BaseModel {
                         'createdAt' => $user['created_at']
 
                     ];
-
+                    echo json_encode([
+                        'status' => true,
+                        'data' => $_SESSION
+                    ]);
 
                 }else{
                     echo json_encode([

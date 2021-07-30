@@ -1,6 +1,6 @@
 <?php
 session_start();
-header('Access-Control-Allow-Origin: *');
+header("Access-Control-Allow-Origin: *");
 header('Content-Type: application/json');
 require_once __DIR__ . '/app/config/const.php';
 date_default_timezone_set(TIME_ZONE);
